@@ -13,7 +13,7 @@ const app = express()
 const privateCors =
  cors({
  origin:[
- "https://kirma-ai-pjpg.vercel.app/" ],
+ "https://kirma-ai-pjpg.vercel.app" ],
 
  credentials: true
 });
