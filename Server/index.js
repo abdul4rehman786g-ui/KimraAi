@@ -23,7 +23,7 @@ cors({
   origin:"*",
 });
 
-app.options("*", privateCors)
+app.options("/(.*)", privateCors)
 app.use(express.json())
 app.use(cookieParser())
 
