@@ -19,10 +19,10 @@ const link = document.createElement("link")
 
 link.rel = "stylesheet"
 
-link.href = "http://localhost:5173/assistant.css"
+link.href = "https://kirma-ai-pjpg.vercel.app/assistant.css"
 
 document.head.appendChild(link)
-
+ 
 
 // Create Popup
 
@@ -93,7 +93,7 @@ popup.innerHTML = `
         <button class="kimra-mic">
 
           <img
-            src="http://localhost:5173/mic.svg"
+            src="https://kirma-ai-pjpg.vercel.app/mic.svg"
             alt="mic"
             class="kimra-mic-icon"
           />
@@ -119,7 +119,7 @@ document.body.appendChild(
 
   button.innerHTML = `
     <img
-      src="http://localhost:5173/logo.png"
+      src="https://kirma-ai-pjpg.vercel.app/logo.png"
       alt="logo"
     />
   `;
