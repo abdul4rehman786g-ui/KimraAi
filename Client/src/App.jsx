@@ -10,7 +10,7 @@ import Navbar from "./Components/Navbar";
 import Builder from './pages/Builder'
 import  { Toaster } from 'react-hot-toast';
 
- export const serverUrl = "http://localhost:8000"
+ export const serverUrl = "https://kirma-ai.vercel.app/"
 
 export const clientUrl = "http://localhost:5173"
 const App = () => {
