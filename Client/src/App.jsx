@@ -12,7 +12,7 @@ import  { Toaster } from 'react-hot-toast';
 
  export const serverUrl = "https://kirma-ai.vercel.app/"
 
-export const clientUrl = "http://localhost:5173"
+export const clientUrl = "https://kirma-ai-pjpg.vercel.app/"
 const App = () => {
   const [user,setUser] = useState(null)
   const [loading , setLoading] = useState(true)
